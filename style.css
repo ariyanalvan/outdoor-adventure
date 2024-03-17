@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  min-height: 100%;
+  background: url(img/header_banner.jpg) rgba(0, 0, 0, 0.466);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.logo h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+.logo h3 span {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  background: white;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 60px;
+  font-weight: 600;
+}
+.hero {
+  padding: 200px 0px;
+  text-align: center;
+}
+.hero span {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 5px;
+  border-radius: 5px;
+  line-height: 0%;
+}
+.hero h3 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  /* margin: 0px; */
+}
+.hero h1{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.btn{
+  padding: 15px 20px;
+  font-size: 20px;
+  background-color: rgb(201, 197, 197);
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.event {
+  text-align: center;
+}
+.event h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px;
+  padding-top: 50px;
+
+}
+.event span {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  width: 350px;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.eventlist {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.eventlist div {
+  text-align: center;
+}
+.eventlist img{
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.31);;
+  object-fit: cover;
+}
+.eventlist h3{
+  font-size: 30px;
+}
+.eventlist P{
+  font-size: 20px;
+}
+.explore {
+  background-image: url(img/father.jpg);
+  padding: 250px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1767d6b8;
+  background-size:cover;
+  background-blend-mode: color-burn;
+  margin-top: 100px;
+  background-attachment: fixed;
+
+}
+.explore span{
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.explore p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+}
+.colum {
+  flex-basis: 50%;
+  color: aliceblue;
+}
+/* UPCOMING TOURS & DESTINATION */
+.tourMain{
+display: flex;
+padding: 60px 0px;
+
+}
+.touritems{
+padding: 20px;
+width: 33%;
+}
+.touritems h3{
+font-size: 30px;
+}
+.touritems span{
+  display: inline-block;
+  background-color: black;
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.touritems p{
+font-size: 20px;
+padding-bottom: 20px;
+}
+.touritems img{
+  max-width: 100%;
+}
+.imag2{
+  height: 400px;
+}
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
